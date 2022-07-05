@@ -1,10 +1,10 @@
 import FirstSection from '../../sections/first'
 import SecondSection from '../../sections/second'
-import ThirdSection from '../../sections/Third'
-import FourthSection from '../../sections/Fourth'
+import ThirdSection from '../../sections/third'
+import FourthSection from '../../sections/fourth'
 import FifthSection from '../../sections/fifth'
-import SixthSection from '../../sections/Sixth'
-import SeventhSection from '../../sections/Seventh'
+import SixthSection from '../../sections/sixth'
+import SeventhSection from '../../sections/seventh'
 
 import {
   Container
