@@ -14,7 +14,8 @@ import {
   LimitContainer,
   DecisionTitle,
   DecisionContainer,
-  ButtonCTABlue
+  ButtonCTABlue,
+  LimitImageContainer
 } from "./styles.js"
 
 const Sixth = () => { 
@@ -394,13 +395,13 @@ const Sixth = () => {
       </LimitTitle>
 
       <LimitContainer>
-        <Image
-          src={require(`../../../public/images/dog-ear.png`)}
-          alt='Imagem'
-          objectFit="contain"
-          width={320}
-          height={320}
-        />
+        <LimitImageContainer>
+          <Image
+            src={require(`../../../public/images/dog-ear.png`)}
+            alt='Imagem'
+            objectFit="contain"
+          />
+        </LimitImageContainer>
 
         <div>
           <h2>

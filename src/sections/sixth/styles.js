@@ -14,6 +14,14 @@ export const Title = styled.h2`
   strong {
     color: #064EF8;
   }
+
+  @media (max-width: 600px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 525px) {
+    font-size: 20px;
+  }
 `
 
 export const ModuleContainer = styled.div`
@@ -52,18 +60,30 @@ export const ModuleIntroduction = styled.div`
 
   h2 {
     font-size: 22px;
+
+    @media (max-width: 525px) {
+      font-size: 16px;
+    }
   }
 
   h1 {
     margin-top: 4px;
     font-size: 26px;
     text-transform: uppercase;
+
+    @media (max-width: 525px) {
+      font-size: 20px;
+    }
   }
 `
 
 export const ModuleDescription = styled.h2`
   font-size: 18px;
   margin-top: 12px;
+
+  @media (max-width: 525px) {
+    font-size: 14px;
+  }
 `
 
 export const ModuleBulletPoints = styled.div`
@@ -85,6 +105,10 @@ export const BulletPoint = styled.div`
   h2 {
     margin-left: 40px;
     font-size: 16px;
+
+    @media (max-width: 525px) {
+      font-size: 12px;
+    }
   }
 
   & + div {
@@ -131,6 +155,10 @@ export const LimitTitle = styled.h1`
     height: 2px;
     background: #EE1F3E;
   }
+
+  @media (max-width: 400px) {
+    font-size: 30px;
+  }
 `
 
 export const LimitContainer = styled.div`
@@ -143,8 +171,42 @@ export const LimitContainer = styled.div`
 
     h2 {
       font-size: 20px;
+
+      @media (max-width: 650px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 14px;
+      }
+    }
+
+    @media (max-width: 850px) {
+      margin-top: 40px;
+      max-width: 600px;
+    }
+
+    @media (max-width: 650px) {
+      max-width: 500px;
+    }
+
+    @media (max-width: 450px) {
+      max-width: 380px;
     }
   }
+
+  @media (max-width: 850px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 850px) {
+    margin-top: 10px;
+  }
+`
+
+export const LimitImageContainer = styled.div`
+  width: 320px;
+  height: 320px;
 `
 
 export const DecisionTitle = styled.h1`
@@ -164,6 +226,10 @@ export const DecisionTitle = styled.h1`
     height: 2px;
     background: #F89706;
   }
+
+  @media (max-width: 400px) {
+    font-size: 30px;
+  }
 `
 
 export const DecisionContainer = styled.div`
@@ -176,7 +242,31 @@ export const DecisionContainer = styled.div`
 
     strong {
       font-size: 22px;
+
+      @media (max-width: 650px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 16px;
+      }
     }
+
+    @media (max-width: 650px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 650px) {
+      max-width: 500px;
+    }
+
+  @media (max-width: 450px) {
+    max-width: 380px;
   }
 `
 
@@ -187,7 +277,6 @@ export const ButtonCTABlue = styled.div`
   border-radius: 12px;
   padding: 12px 32px;
   margin-top: 56px;
-  margin-bottom: 16px;
   background: linear-gradient(123.69deg, rgba(0, 169, 255, 0.5) 4.62%, #064EF8 63.01%);
   align-self: center;
 
@@ -195,5 +284,17 @@ export const ButtonCTABlue = styled.div`
     text-transform: uppercase;
     font-size: 28px;
     color: #f8f8f8;
+
+    @media (max-width: 580px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 15px;
+    }
   }
 `

@@ -23,6 +23,10 @@ export const Title = styled.h2`
   strong {
     color: #F87806;
   }
+
+  @media (max-width: 450px) {
+    font-size: 26px;
+  }
 `
 
 export const Info = styled.div`
@@ -39,12 +43,36 @@ export const Info = styled.div`
     h1 {
       color: #F8F8F8;
       font-size: 28px;
+
+      @media (max-width: 700px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: 580px) {
+        font-size: 22px;
+      }
+
+      @media (max-width: 580px) {
+        font-size: 20px;
+      }
     }
 
     h2 {
       margin-top: 12px;
       color: #F8F8F8;
       font-size: 20px;
+
+      @media (max-width: 700px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 580px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 400px) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -60,9 +88,30 @@ export const Info = styled.div`
   &:last-child {
     border-radius: 0 0 44px 44px;
   }
+
+  @media (max-width: 800px) {
+    padding: 16px;
+  }
+
+  @media (max-width: 700px) {
+    height: 300px;
+  }
+
 `
 
 export const InfoNumber = styled.h1`
   color: #F8F8F8;
   font-size: 340px;
+
+  @media (max-width: 700px) {
+    font-size: 280px;
+  }
+
+  @media (max-width: 580px) {
+    font-size: 240px;
+  }
+
+  @media (max-width: 500px) {
+    font-size: 120px;
+  }
 `

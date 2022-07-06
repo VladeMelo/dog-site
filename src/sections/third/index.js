@@ -5,7 +5,8 @@ import {
   RoadmapTitle,
   Roadmap,
   BulletPointContainer,
-  BulletPointTextContainer
+  BulletPointTextContainer,
+  DogImageContainer
 } from "./styles.js"
 
 const Third = () => { 
@@ -46,13 +47,13 @@ const Third = () => {
             </BulletPointTextContainer>
           </BulletPointContainer>
 
-          <Image
-            src={require(`../../../public/images/dog-with-flower.png`)}
-            alt='Imagem'
-            objectFit="contain"
-            width={800}
-            height={1400}
-          />
+          <DogImageContainer>
+            <Image
+              src={require(`../../../public/images/dog-with-flower.png`)}
+              alt='Imagem'
+              objectFit="contain"
+            />
+          </DogImageContainer>
         </Roadmap>
       </RoadmapContainer>
     </Container>

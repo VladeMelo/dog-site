@@ -78,7 +78,7 @@ const Second = () => {
               height={60}
             />
 
-            <h2>Juliana Nascimento</h2>
+            <h2>Maria Alice</h2>
           </TestimonyPerson>
 
           <TestimonyStars>

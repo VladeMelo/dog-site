@@ -10,6 +10,10 @@ export const Container = styled.div`
 export const DescriptionContainer = styled.div`
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
 
 export const TextContainer = styled.div`
@@ -17,12 +21,24 @@ export const TextContainer = styled.div`
   max-width: 416px;
   
   h1 {
-    font-size:20px;
+    font-size: 20px;
+
+    @media (max-width: 700px) {
+      font-size: 18px;
+    }
   }
 
   h2 {
     font-size: 18px;
     margin-top: 20px;
+
+    @media (max-width: 700px) {
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    margin-bottom: 20px;
   }
 `
 
@@ -30,6 +46,10 @@ export const TestimonyContainer = styled.div`
   margin-top: 40px;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 830px) {
+    flex-direction: column;
+  }
 `
 
 export const Testimony = styled.div`
@@ -43,6 +63,15 @@ export const Testimony = styled.div`
   flex-direction: column;
 
   box-shadow: 4px 4px 12px;
+
+  @media (max-width: 830px) {
+    max-width: 340px;
+    height: 100%;
+
+    & + div {
+      margin-top: 24px;
+    }
+  }
 `
 
 export const TestimonyPerson = styled.div`
@@ -63,6 +92,10 @@ export const TestimonyStars = styled.div`
 export const TestimonyDescription = styled.h2`
   margin-top: 8px;
   font-size: 16px;
+
+  @media (max-width: 830px) {
+    font-size: 14px;
+  }
 `
 
 export const ButtonCTABlue = styled.div`
@@ -79,6 +112,18 @@ export const ButtonCTABlue = styled.div`
     text-transform: uppercase;
     font-size: 28px;
     color: #f8f8f8;
+
+    @media (max-width: 580px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 15px;
+    }
   }
 `
 
@@ -92,6 +137,10 @@ export const WhoNeedsQuestion = styled.h2`
   font-size: 28px;
   text-align: center;
 
+  @media (max-width: 550px) {
+    font-size: 18px;
+  }
+
   strong {
     color: #EE1F3E;
     text-decoration: underline;
@@ -101,17 +150,29 @@ export const WhoNeedsQuestion = styled.h2`
 export const WhoNeedsSubQuestion = styled.h2`
   font-size: 20px;
   margin-top: 12px;
+
+  @media (max-width: 550px) {
+    font-size: 13px;
+  }
 `
 
 export const WhoNeedsDescriptionContainer = styled.div`
   width: 100%;
   margin-top: 40px;
   justify-content: space-between;
+
+  @media (max-width: 650px) {
+    justify-content: center;
+  }
 `
 
 export const WhoNeedsImages = styled.div`
   flex-direction: column;
   justify-content: space-between;
+
+  @media (max-width: 650px) {
+    display: none;
+  }
 `
 
 export const WhoNeedsDescription = styled.div`
@@ -131,9 +192,25 @@ export const Description = styled.div`
   h2 {
     font-size: 16px;
     margin-left: 32px;
+
+    @media (max-width: 560px) {
+      font-size: 14px;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 13px;
+    }
   }
 
   & + div {
     margin-top: 20px;
+  }
+
+  @media (max-width: 560px) {
+    max-width: 460px;
+  }
+
+  @media (max-width: 500px) {
+    max-width: 360px;
   }
 `

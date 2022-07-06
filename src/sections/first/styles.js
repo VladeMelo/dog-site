@@ -18,6 +18,10 @@ export const VSLContainer = styled.div`
 export const VSLSubtitle = styled.h2`
   font-size: 12px;
   text-align: center;
+
+  @media (max-width: 420px) {
+    font-size: 10px;
+  }
 `
 
 export const VSLTitle = styled.h1`
@@ -27,6 +31,10 @@ export const VSLTitle = styled.h1`
 
   strong {
     color: #EE1F3E;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 20px;
   }
 `
 
@@ -51,5 +59,17 @@ export const ButtonCTAOrange = styled.div`
     text-transform: uppercase;
     font-size: 28px;
     color: #f8f8f8;
+
+    @media (max-width: 580px) {
+      font-size: 20px;
+    }
+
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
+
+    @media (max-width: 360px) {
+      font-size: 15px;
+    }
   }
 `
