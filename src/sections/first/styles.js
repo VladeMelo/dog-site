@@ -43,7 +43,8 @@ export const ContainerVideo = styled.div`
   width: 100%;
   max-width: 100%;
   height: 400px;
-  background: grey;
+  align-items: center;
+  justify-content :center;
 `
 
 export const ButtonCTAOrange = styled.div`
