@@ -15,21 +15,21 @@ import {
 const API_KEY = 'AIzaSyDCWpgt2RjMWIlBIwQZfzXmflHtQJhSKPw'
 const ID_CHANNEL = 'UCCFPJVR4xVoPILwRvoLogVw'
 
-export async function getServerSideProps(context) {
-  const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=${ID_CHANNEL}&maxResults=1&key=${API_KEY}`)
+// export async function getServerSideProps(context) {
+//   const { data } = await axios.get(`https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId=UCCFPJVR4xVoPILwRvoLogVw&maxResults=1&key=AIzaSyDCWpgt2RjMWIlBIwQZfzXmflHtQJhSKPw`)
 
-  return {
-    props: {
-      data
-    },
-  }
-}
+//   return {
+//     props: {
+//       data
+//     },
+//   }
+// }
 
 const Home = (props) => { 
 
   return (
     <Container>
-      <FirstSection video={props.data.items[0]}/>
+      <FirstSection/>
       <SecondSection/>
       <ThirdSection/>
       <FourthSection/>
