@@ -70,21 +70,26 @@ export const ButtonCTAOrange = styled.div`
   margin-top: 48px;
   background: linear-gradient(288.78deg, rgba(248, 183, 50, 0.5) -8.22%, #F87806 100%);
 
-  h1 {
-    text-transform: uppercase;
-    font-size: 28px;
-    color: #f8f8f8;
+  a {
+    text-decoration: inherit;
+    color: inherit;
+    
+    h1 {
+      text-transform: uppercase;
+      font-size: 28px;
+      color: #f8f8f8;
 
-    @media (max-width: 580px) {
-      font-size: 20px;
-    }
+      @media (max-width: 580px) {
+        font-size: 20px;
+      }
 
-    @media (max-width: 450px) {
-      font-size: 16px;
-    }
+      @media (max-width: 450px) {
+        font-size: 16px;
+      }
 
-    @media (max-width: 360px) {
-      font-size: 15px;
+      @media (max-width: 360px) {
+        font-size: 15px;
+      }
     }
   }
 `

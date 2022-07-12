@@ -108,21 +108,26 @@ export const ButtonCTABlue = styled.div`
   background: linear-gradient(123.69deg, rgba(0, 169, 255, 0.5) 4.62%, #064EF8 63.01%);
   align-self: center;
 
-  h1 {
-    text-transform: uppercase;
-    font-size: 28px;
-    color: #f8f8f8;
+  a {
+    text-decoration: inherit;
+    color: inherit;
 
-    @media (max-width: 580px) {
-      font-size: 20px;
-    }
+    h1 {
+      text-transform: uppercase;
+      font-size: 28px;
+      color: #f8f8f8;
 
-    @media (max-width: 450px) {
-      font-size: 16px;
-    }
+      @media (max-width: 580px) {
+        font-size: 20px;
+      }
 
-    @media (max-width: 360px) {
-      font-size: 15px;
+      @media (max-width: 450px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 360px) {
+        font-size: 15px;
+      }
     }
   }
 `
