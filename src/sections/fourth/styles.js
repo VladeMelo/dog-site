@@ -62,6 +62,7 @@ export const ImageAndTextContainer = styled.div`
 `
 
 export const ButtonCTAOrange = styled.div`
+  align-self: center;
   max-width: 600px;
   align-items: center;
   justify-content: center;
