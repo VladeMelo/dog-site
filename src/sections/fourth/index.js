@@ -33,7 +33,7 @@ const Fourth = () => {
 
       <ButtonCTAOrange>
         <a
-          href='https://dog-site.vercel.app'
+          href='https://pay.kiwify.com.br/Y3Og4fV'
         >
           <h1>Clique aqui e comece ainda hoje</h1>
         </a>
