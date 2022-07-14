@@ -129,7 +129,11 @@ const Second = () => {
       </TestimonyContainer>
 
       <ButtonCTABlue>
-        <h1>Clique aqui e comece ainda hoje</h1>
+        <a
+          href='https://dog-site.vercel.app'
+        >
+          <h1>Clique aqui e comece ainda hoje</h1>
+        </a>
       </ButtonCTABlue>
 
       <WhoNeedsContainer>
